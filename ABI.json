@@ -1,0 +1,204 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "allLots",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "lotOnwerAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "lotId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "lotPrice",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "lotLocation",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "lotDescription",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "vacancy",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getParking",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "lotOnwerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "lotId",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "lotPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "lotLocation",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lotDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "vacancy",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Parking.ParkingLot[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "lots",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "lotOnwerAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "lotId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "lotPrice",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "lotLocation",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "lotDescription",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "vacancy",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "lotsCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "lotId",
+				"type": "string"
+			}
+		],
+		"name": "setLotVacancy",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_callerAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_lotId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "price",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_location",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_description",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_vacancy",
+				"type": "uint256"
+			}
+		],
+		"name": "setParking",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

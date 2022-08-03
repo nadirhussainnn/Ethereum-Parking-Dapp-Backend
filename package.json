@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nadir Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.5.1",
+    "web3": "^1.7.4"
+  },
+  "engines": {
+    "node": "v15.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
