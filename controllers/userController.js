@@ -1,5 +1,15 @@
 const User=require('../models/userModel')
 
+const test=async(req, res)=>{
+
+    try{
+
+        res.status(200).send({success:true, msg:"API working"})
+    }catch(error){
+        res.status(400).send(error)
+    }
+}
+
 const login=async(req, res)=>{
 
     console.log(`Login API hit`)
@@ -39,5 +49,6 @@ const register=async (req, res)=>{
 
 module.exports={
     login,
-    register
+    register,
+    test
 }
