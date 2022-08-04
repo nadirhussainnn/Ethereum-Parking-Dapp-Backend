@@ -19,7 +19,7 @@
     "web3": "^1.7.4"
   },
   "engines": {
-    "node": "v15.11.0",
+    "node": "16.16.0",
     "npm": "8.5.3"
   },
   "devDependencies": {
