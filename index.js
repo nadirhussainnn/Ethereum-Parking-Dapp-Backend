@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 
 //Some constants
-const PORT=process.env.PORT || 8082;
+const PORT=process.env.PORT || 5214;
 const DB_URL=process.env.MONGO_DB_URL;
 
 
