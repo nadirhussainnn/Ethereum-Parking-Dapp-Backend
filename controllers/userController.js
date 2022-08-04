@@ -12,7 +12,7 @@ const test=async(req, res)=>{
 
 const login=async(req, res)=>{
 
-    console.log(`Login API hit`)
+    console.log(`Login API hit`, req.body)
     try{
         const {email, password}=req.body
 
