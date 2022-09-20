@@ -7,3 +7,7 @@
 `INFURANET_URL=` <br />
 `MONGO_DB_URL=` <br />
 `CONTRACT_ADDRESS=` <br />
+
+
+## How to run
+1. Install node modules via `npm i` and start app via `npm start`
